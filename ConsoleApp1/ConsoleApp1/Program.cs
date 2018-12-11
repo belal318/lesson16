@@ -14,6 +14,7 @@ namespace ConsoleApp1
             int num = int.Parse(Console.ReadLine());
             int[] arr =new int[] { 1, 28, 34, 4, 53, 6, 71, 82, 9, 10, 15, 16, 84, 65, 21, 64, 47 };
             int index = BinarySearch(arr,num);
+
             Console.WriteLine(index);
             foreach (var item in arr)
             {
